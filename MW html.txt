@@ -1,0 +1,52 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header id="header">
+      <img id="header-img"  class="header-ima" src="https://i0.wp.com/5ergiveaways.com/wp-content/uploads/2019/10/Twitter-Cover-1.png?fit=1500%2C500&ssl=1" />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#title">Call of Duty: Modern Warfare</a>
+        <a class="nav-link" href="#video">Trailer</a>
+        <a class="nav-link" href="#form">Contact Us</a>
+      </nav>
+      <h1 class="title" id="title">Call of Duty: Modern Warfare is finally BACK</h1>
+      <p class"text">The iconic first-person shooter game is back! Cross play, free maps and modes, and new engine deliver the largest technical leap in Call of Duty history.</p>
+    </header>
+    <iframe id="video" name="video" class="video" src="https://www.youtube.com/embed/OGjUSyETd1U?si=3K7Z9OZg2U_ovxVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2 class="title">Multiplayer</h2>
+      <p class="text-title">Modern Warfare is <b>back</b>. Grounded combat and fast-paced action. The most photo realistic environments in franchise history. Fan-favorite multiplayer modes and epic Killstreaks. Deep weapon customization. Best-in-class down the barrel gameplay. And a whole lot more.</p>
+      <h2 class="title">Campaign</h2>
+      <p class="text">Partner with special forces and freedom fighters to retrieve stolen chemical weapons. Covert operations will take you across Europe and the Middle East in order to stop full scale global war.</p> 
+      <p class="text">The world will look to you to do what needs to be done.</p>
+      <h2 class="title">Special Ops</h2>
+      <p class="text">Welcome back to Special Ops. Receive your intel. Neutralize your targets. Reap the rewards for a mission accomplished.</p>
+      <p class="text">Available on all platforms.</p>
+  </head>
+  <body>
+    <form id="form" name="form" action="https://www.freecodecamp.com/email-submit">Contact Us
+      <input id="email" placeholder="example@org.com" type="email" name="email" />
+      <input id="submit" type="submit"/>     
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {background-color: black; color: white; font-family: sans-serif;}
+.title {color: lightblue}
+iframe {display: flex; height: 315; width: 560; position: relative; margin: 0 auto}
+.nav-link {display: inline; padding: 8px; margin-left: 8px; overflow: hidden; color: lightblue; border: 1px solid; text-decoration: none; }
+a:hover {padding: 12px;}
+img {width: 1005}
+form {border-top: 1px solid white; margin-top: 5px; padding: 20px 0}
+nav {position: fixed; width: 100%; top: 0; } 
+@media screen and (min-width: 480px) {body {background-color: black;}}
+
+** end of undefined **
+
